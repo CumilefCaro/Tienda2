@@ -41,5 +41,5 @@ jobs:
               --name back-despachos \
               --restart always \
               -p 8081:8081 \
-              --env-file /home/ec2-user/.env \
+              --env-file "/home/ec2-user/Tienda2/proyecto semestral/.env" \
               ${{ secrets.DOCKER_USERNAME }}/back-despachos:latest
